@@ -225,6 +225,10 @@ a{
     color: #FF6200;
     text-decoration: underline coral;
  }
+ .footer-contacts a:hover{
+    color: #FF6200;
+    text-decoration:underline #FF6200;
+ }
  
 
    .footer-logo{
