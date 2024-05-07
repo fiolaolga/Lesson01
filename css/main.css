@@ -92,9 +92,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .offer-text{
     margin: 32px 0 43px 0;
+    margin-right: 78px;
 }
 
 .offer-title{
@@ -117,6 +119,12 @@ a{
     font-size: 20px;     
    
     }
+    button:hover{
+        background: #FF6200;
+        cursor: pointer;
+    }
+    
+    
 
     /*text-section*/
    .blok-wrapper{
@@ -205,12 +213,20 @@ a{
    .footer-menu-list{
     flex-direction: column;
     gap: 7px;
-    height: 38px;
+    height: 42px;
     flex-wrap: wrap;
     width: 246px;
     align-content: space-between;
     margin-right: 374px;
-   }
+    cursor: pointer; 
+   
+ }
+ .catside a:hover{   
+    color: #FF6200;
+    text-decoration: underline coral;
+ }
+ 
+
    .footer-logo{
     margin-right: 190px;
    }
