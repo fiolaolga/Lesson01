@@ -218,7 +218,14 @@ a{
     width: 246px;
     align-content: space-between;
     margin-right: 374px;
-    cursor: pointer;  }
+    cursor: pointer; 
+   
+ }
+ .catside a:hover{   
+    color: #FF6200;
+    text-decoration: underline coral;
+ }
+ 
 
    .footer-logo{
     margin-right: 190px;
